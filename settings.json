@@ -1,0 +1,72 @@
+{
+    // language settings
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+
+    // editor settings
+    "editor.fontFamily": "Monaco",
+    "editor.tabSize": 4,
+    "editor.fontLigatures": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.fontSize": 13,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Everforest Dark",
+    "breadcrumbs.enabled": false,
+    "update.showReleaseNotes": false,
+
+    // vim
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+        { "before": ["leader", "s"], "commands": [":vsplit"] },
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"],
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+        { "before": ["leader", "w"], "commands": [":wq"] },
+        {
+            "before": [ "K" ],
+            "commands": [ "editor.action.moveLinesUpAction" ]
+        },
+        {
+            "before": [ "J" ],
+            "commands": [ "editor.action.moveLinesDownAction" ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+        { "before": [">"], "commands": ["editor.action.indentLines"] },
+        { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+        { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    ]
+}
