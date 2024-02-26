@@ -8,5 +8,9 @@
         "key": "ctrl+.",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+.",
+        "command": "projectManager.listProjectsNewWindow"
     }
 ]
