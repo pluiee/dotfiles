@@ -17,7 +17,7 @@
     },
 
     // editor settings
-    "editor.fontFamily": "Monaco",
+    "editor.fontFamily": "Monaspace Argon",
     "editor.tabSize": 4,
     "editor.fontLigatures": false,
     "editor.suggest.insertMode": "replace",
