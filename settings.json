@@ -27,8 +27,6 @@
     "editor.lineNumbers": "relative",
     "editor.renderLineHighlight": "gutter",
     "workbench.colorTheme": "Everforest Dark",
-    "workbench.iconTheme": "chalice-icon-theme",
-    "workbench.productIconTheme": "material-product-icons",
     "everforest.italicComments": false,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
