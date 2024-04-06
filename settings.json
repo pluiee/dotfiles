@@ -16,23 +16,6 @@
         "**/.ammonite": true
     },
 
-    // editor settings
-    "editor.fontFamily": "Monaspace Argon",
-    "editor.tabSize": 4,
-    "editor.fontLigatures": false,
-    "editor.suggest.insertMode": "replace",
-    "editor.minimap.enabled": false,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "editor.lineNumbers": "relative",
-    "editor.renderLineHighlight": "gutter",
-    "workbench.colorTheme": "Everforest Dark",
-    "everforest.italicComments": false,
-    "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false,
-    "update.showReleaseNotes": false,
-    "terminal.integrated.lineHeight": 1.3,
-
     // vim
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
@@ -72,5 +55,24 @@
         { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
         { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
         { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-    ]
+    ],
+
+    // editor settings
+    "editor.fontFamily": "Monaspace Argon",
+    "editor.fontLigatures": "'calt', 'liga', 'dlig'",
+    "editor.tabSize": 4,
+    "editor.suggest.insertMode": "replace",
+    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.lineNumbers": "relative",
+    "editor.renderLineHighlight": "gutter",
+    "everforest.italicComments": false,
+    "breadcrumbs.enabled": false,
+    "update.showReleaseNotes": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.lineHeight": 1.3,
+    "workbench.colorTheme": "Everforest Dark",
+    "workbench.iconTheme": "Monokai Classic Monochrome Icons",
+    "editor.fontSize": 13
 }
