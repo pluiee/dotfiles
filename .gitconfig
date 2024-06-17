@@ -1,0 +1,15 @@
+[user]
+	name = pluiee
+	email = kshunn@snu.ac.kr
+	name = Sanghun
+[credential]
+	helper = osxkeychain
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[rebase]
+	autosquash = true
+[pull]
+	rebase = true
+[push]
+	default = current
