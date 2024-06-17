@@ -65,5 +65,11 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.lineHeight": 1.3,
     "editor.fontSize": 13,
-    "editor.lineHeight": 1.7
+    "editor.lineHeight": 1.7,
+
+    // catppuccin
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
 }
