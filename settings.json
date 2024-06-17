@@ -10,11 +10,6 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
-    "files.watcherExclude": {
-        "**/.bloop": true,
-        "**/.metals": true,
-        "**/.ammonite": true
-    },
 
     // vim
     "vim.leader": "<Space>",
@@ -58,21 +53,17 @@
     ],
 
     // editor settings
-    "editor.fontFamily": "Monaspace Argon",
-    "editor.fontLigatures": "'calt', 'liga', 'dlig'",
+    "editor.fontFamily": "Input Mono",
     "editor.tabSize": 4,
     "editor.suggest.insertMode": "replace",
-    "editor.minimap.enabled": false,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
     "editor.lineNumbers": "relative",
     "editor.renderLineHighlight": "gutter",
     "everforest.italicComments": false,
-    "breadcrumbs.enabled": false,
     "update.showReleaseNotes": false,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.lineHeight": 1.3,
-    "workbench.colorTheme": "Everforest Dark",
-    "workbench.iconTheme": "Monokai Classic Monochrome Icons",
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.7
 }
