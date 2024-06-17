@@ -1,5 +1,5 @@
 ## Requirements
 
 ```
-brew install zsh-autosuggestions zoxide
+brew install zsh-autosuggestions zoxide nvim
 ```
