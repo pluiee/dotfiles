@@ -9,10 +9,15 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="typewritten/typewritten"
-export TYPEWRITTEN_SYMBOL="$"
-# export TYPEWRITTEN_COLOR_MAPPINGS="primary:white;secondary:white"
+# export TYPEWRITTEN_SYMBOL="$"
+export TYPEWRITTEN_ARROW_SYMBOL="➜"
+export TYPEWRITTEN_PROMPT_LAYOUT="pure_verbose"
 
-plugins=(git H-S-MW)
+plugins=(
+	git 
+	H-S-MW
+#	git-prompt
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -37,4 +42,7 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(zoxide init zsh)"
+
+export EDITOR='nvim'
+export VISUAL='nvim'
 
