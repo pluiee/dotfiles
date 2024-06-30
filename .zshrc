@@ -10,6 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="typewritten/typewritten"
 # export TYPEWRITTEN_SYMBOL="$"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
 export TYPEWRITTEN_ARROW_SYMBOL="➜"
 export TYPEWRITTEN_PROMPT_LAYOUT="pure_verbose"
 
